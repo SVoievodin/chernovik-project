@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage «Mimino»</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header>
+      <!--    1 В Header-і знаходиться лого, навігація та список посилань на соц.мережі 
+            (в мобільній та десктопній версіях).
+        2 Логотип (назву) компанії реалізувати як посилання, 
+            яке повертає користувача на головну сторінку.
+        3 Навігація має бути реалізована як список елементів, 
+            кожен з яких містить в собі посилання, що веде на відповідну сторінку, 
+            та посилання у вигляді відповідних контактних телефонів для зворотнього зв’язку.
+        4  Посилання на соц. мережу має відкривати сторонній ресурс в окремій вкладці. -->
+
+      <!-- Логотип -->
+      <div class="container">
+        <a class="logo" href="./index.html">mimiho</a>
+        <!-- Контакти -->
+        <ul class="contacts">
+          <li>Ресторан</li>
+          <li>Готель</li>
+        </ul>
+        <!-- Соцмережі -->
+        <ul class="socials">
+          <li>
+            <a href="https://www.instagram.com/"></a>
+            <svg class="icon"><use href="./images/icons.svg#icon-instagram"></use></svg>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/"></a>
+            <svg class="icon"><use href="./images/icons.svg#icon-facebook"></use></svg>
+          </li>
+          <li>
+            <a href="https://web.telegram.org"></a>
+            <svg class="icon"><use href="./images/icons.svg#icon-telegram"></use></svg>
+          </li>
+        </ul>
+        <a href="https://goo.gl/maps/FxAMZKCTFhZcYdub6"
+          >Україна, м. Полтава, вул. Маршала Бірюзова, 15</a
+        >
+      </div>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">mimiho</h1>
+          <h2 class="hero__subtitle">Ресторанно-готельний комплекс</h2>
+          <p class="hero__slogan">смак життя 24/7</p>
+          <ul class="hero__buttons">
+            <li><button class="button-transparent" type="button">Забронювати столик</button></li>
+            <li><button class="button-transparent" type="button">Забронювати номер</button></li>
+          </ul>
+        </div>
+      </section>
+      <!-- About our restaurant -->
+      <section class="restaurant">
+        <div class="container">
+          <h3 class="visually-hidden"></h3>
+          <div>
+            <ul>
+              <li>
+                <p class="subtitle">Amet minim mollit non</p>
+              </li>
+              <li><p class="in-txt-logo">MIMIHO</p></li>
+              <li>
+                <p class="txt-grey">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                  officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                  nostrud amet.
+                </p>
+              </li>
+            </ul>
+            <img src="./images/rest1-m.jpg" alt="Перший зал ресторану" />
+          </div>
+          <div>
+            <img src="./images/rest2-m.jpg" alt="Другий зал ресторану" />
+            <p class="txt-gold">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+              amet.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Details of our restaurant -->
+      <section class="details-restaurant">
+        <div class="container"></div>
+      </section>
+    </main>
+  </body>
+</html>

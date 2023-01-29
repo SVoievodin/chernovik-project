@@ -1,0 +1,68 @@
+.hero {
+
+    max-width: 1023px;
+    max-height: 740px;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url(../../images/main-bg-m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin: 0 auto;
+    // padding: 118px 0;
+
+    @media screen and (min-width: 1024px) {
+        max-width: 1279px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+                url(../../images/main-bg-t.jpg);
+    }
+
+    @media screen and (min-width: 1280px) {
+        max-width: 1600px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+                url(../../images/main-bg-d.jpg);
+        // padding: 200px 0;
+    }  
+    
+    &__title {
+    font-family: 'Film P3';
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 1.07;
+        letter-spacing: 0.3em;
+        text-align: center;
+        text-transform: uppercase;
+    
+       color: var(--white-color);
+}
+
+        &__subtitle {
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+   color: var(--white-color);
+}
+
+    &__slogan {
+    font-family: 'Times New Roman';
+        font-style: normal;
+        text-transform: uppercase; 
+
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.05em;
+    
+   color: var(--white-color);
+}
+&__buttons {
+    text-align: center;
+}
+}
+
+  

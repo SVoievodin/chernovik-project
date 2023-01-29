@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Film P3';
+    src: url('../../../../fonts/FilmP3.eot');
+    src: local('☺'), url('../../../../fonts/FilmP3.woff') format('woff'), url('../../fonts/FilmP3.ttf') format('truetype'), url('../../fonts/FilmP3.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;    
+    list-style: none;
+
+}
+
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+li {
+    list-style-type: none;
+}
+
+
+
+.container {
+    max-width: 414px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: solid 2px tomato; 
+
+    @media screen and (max-width: 1023px){
+        max-width: 414px;
+    }
+          @media screen and (min-width: 1024px) {
+            max-width: 1024px;
+                padding: 0 47px;
+          }
+                @media screen and (min-width: 1280px) {
+                    max-width: 1280px; 
+                        padding: 0 85px;
+                }
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
